@@ -17,35 +17,40 @@ This folder contains scripts and resources for analyzing brain states using prep
 # Pipeline Overview:
 ## GUI Features:
 ### 1. Configuration Management
-      * Create or load a configuration file containing project details:
+   * Create or load a configuration file containing project details:
         * Data path
         * Output directory
         * Project name
         * Atlas selection
         * NIfTI file extensions (.nii or .gz).
+          
       ![image](https://github.com/user-attachments/assets/ddb75223-5707-4624-8b81-ce61d5f7297f)
-
-      fig.1 Create New Config File at the bottom save the file as json file
+           fig.1 Create New Config File at the bottom save the file as json file
+     
 ### 2. Data Preprocessing
-      * Extract time series for each fMRI file using atlas-based parcellation.
-      * Save results as CSV files where:
+   * Extract time series for each fMRI file using atlas-based parcellation.
+   *  Save results as CSV files where:
        * Rows correspond to TRs (time points).
        * Columns correspond to voxels in the atlas.
+         
 ### 3. Data Visualization and Scrubbing
 * Visualize extracted time series and inspect confounds (e.g., head movement).
 Remove files with high percentages (15-22%) of bad scrubbing due to excessive motion.
 
 # How to Use:
    ## 1. Run the GUI:
-   bash
-   Copy code
    python main_gui.py
+   
    ![image](https://github.com/user-attachments/assets/0d6ab138-745c-402a-98ed-4f9dffe6ecf2)
-   fig 2. Read from config file or creat new file for new project
+              
+               fig 2. Read from config file or creat new file for new project
+               
    ## 2. Set Up Project:
    * Use the GUI to create or load a configuration file with all project details.
-    ![image](https://github.com/user-attachments/assets/870a8bae-f421-45c9-848f-da5d357721de)
-    fig 3. After reading config file the " Run Preprocessing " button appears
+     
+   ![image](https://github.com/user-attachments/assets/60c1e6ba-2ce5-4b4d-b6c1-7d51054057a9)
+
+            fig 3. After reading config file the " Run Preprocessing " button appears
 
    ## 3. Preprocess Data:
    * Load fMRI data.

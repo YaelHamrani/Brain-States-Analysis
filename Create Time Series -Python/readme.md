@@ -9,9 +9,9 @@ This folder contains scripts and resources for analyzing brain states using prep
    * Handles data loading, saving, and organization. Originally written by T. Marko and modified by Yael H.
 * preprocessing_tools.py
    * Provides functions for extracting time series from fMRI data using atlas assignments and handling preprocessing tasks. Originally written by T. Marko and modified by Yael H.
-* supported_atlases/
+* atlas/
    * A folder containing atlas files supported by the pipeline.
-* config_examples/
+* config/
    * A folder containing example JSON configuration files for projects.
 
 # Pipeline Overview:

@@ -1,4 +1,4 @@
-# Brain State Analysis Pipeline GUI
+Brain State Analysis Pipeline GUI
 
 This folder contains scripts and resources for analyzing brain states using preprocessed fMRI NIfTI files. The pipeline is encapsulated in a GUI that guides users through configuration, preprocessing, and visualization of brain state data.
 

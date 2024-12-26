@@ -1,0 +1,40 @@
+{
+    "data": "ProjectName",
+    "project_root_output": "D:\\Timeseries",
+    "data_root": "\\\\D:\\fmriprep",
+    "T_R": 0.8,
+    "NIFTI_EXT": "gz",
+    "NUM_VOL_TO_REMOVE": 3,
+    "LEVEL": 2,
+    "ATLAS": "Schaefer2018_7Networks",
+    "ATLAS_PATH": "D:\\fMRI_preprocess\\atlas",
+    "NIFTI_NAME_INCLUDE": "rest,desc-preproc_bold.nii.gz",
+    "CONF_NAME_INCLUDE": "rest",
+    "CONFOUNDS": [
+        "trans_x",
+        "trans_y",
+        "trans_z",
+        "rot_x",
+        "rot_y",
+        "rot_z",
+        "framewise_displacement"
+    ],
+    "STANDARTIZE": "zscore",
+    "SMOOTHING_FWHM": 6,
+    "DETREND": true,
+    "HIGH_PASS": 0.01,
+    "LOW_PASS": 0.08,
+    "DEBUG": false,
+    "changable_TR": false,
+    "YEO_NW": [
+        "VIS",
+        "SOM",
+        "DAT",
+        "VAT",
+        "LIM",
+        "FPN",
+        "DMN"
+    ],
+    "RESULTS": "D:\\Timeseries\\ProjectName_output\\Results_Schaefer2018_7Networks",
+    "LOG": "D:\\Timeseries\\ProjectName_output\\log"
+}

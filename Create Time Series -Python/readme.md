@@ -61,19 +61,19 @@ Remove files with high percentages (15-22%) of bad scrubbing due to excessive mo
 # Requirements:
 * Python 3.7+
 * Required libraries:
- * os
- * glob
- * numpy
- * pandas
- * matplotlib.pyplot
- * shutil
- * json
- * nibabel
- * nipype.interfaces
- * nilearn.maskers 
- * scikit-learn
- * nilearn
- * tkinter
+  * os
+  * glob
+  * numpy
+  * pandas
+  * matplotlib.pyplot
+  * shutil
+  * json
+  * nibabel
+  * nilearn
+  * nipype.interfaces
+  * nilearn.maskers 
+  * scikit-learn
+  * tkinter
 
 Install dependencies using:
 pip install -r requirements.txt
